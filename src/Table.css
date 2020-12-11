@@ -1,0 +1,14 @@
+.table{
+    margin-top:20px;
+    overflow:scroll;
+    height:400px;
+    columns: #556644;
+}
+/*奇數列*/
+.table tr:nth-of-type(odd){
+    background-color:white;
+}
+
+.table td{
+    padding :0.5rem;
+}
